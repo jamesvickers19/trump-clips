@@ -27,4 +27,10 @@ export const trumpVideos: Video[] = [
     description: "They're eating the dogs!  They're eating the cats!",
     videoId: "5llMaZ80ErY",
   },
+  {
+    description: "We are not weird!  We are solid rocks!",
+    videoId: "99voxHFauCg",
+    startSeconds: 470,
+    endSeconds: 488,
+  },
 ];

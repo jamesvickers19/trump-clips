@@ -2,6 +2,7 @@ import "./App.css";
 import { trumpVideos, Video } from "./TrumpVideos";
 import { useEffect, useState } from "react";
 import YouTube from "react-youtube";
+import useWindowDimensions from "./WindowDimensions";
 
 function getRandomElement<T>(arr: T[]): T {
   const randomIndex = Math.floor(Math.random() * arr.length);
@@ -25,6 +26,7 @@ function App() {
   useEffect(() => {
     setSeenVideos(seenVideos.add(selectedVideo.videoId));
   }, [seenVideos, selectedVideo]);
+  const { windowHeight, windowWidth } = useWindowDimensions();
 
   return (
     <div style={styles.container}>
@@ -38,8 +40,8 @@ function App() {
       <YouTube
         videoId={selectedVideo.videoId}
         opts={{
-          height: "550",
-          width: "800",
+          height: 0.7 * windowHeight,
+          width: 0.75 * windowWidth,
           playerVars: {
             // https://developers.google.com/youtube/player_parameters
             start: selectedVideo.startSeconds,

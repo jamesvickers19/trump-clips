@@ -40,8 +40,8 @@ function App() {
       <YouTube
         videoId={selectedVideo.videoId}
         opts={{
-          height: 0.7 * windowHeight,
-          width: 0.75 * windowWidth,
+          height: 0.75 * windowHeight,
+          width: 0.9 * windowWidth,
           playerVars: {
             // https://developers.google.com/youtube/player_parameters
             start: selectedVideo.startSeconds,

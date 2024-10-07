@@ -92,4 +92,22 @@ export const trumpVideos: Video[] = [
     description: "Covid will miraculously disappear",
     videoId: "r8yOv4PwttM",
   },
+  {
+    description: "Kim Jong-un wrote me beautiful letters and we fell in love",
+    videoId: "LV6mVmAVQU4",
+  },
+  {
+    description: "Magnets don't work in water?",
+    videoId: "rkIKEJPAUzM",
+    startSeconds: 7,
+    endSeconds: 12,
+  },
+  {
+    description: "Windmills are killing whales",
+    videoId: "NDncUKnk4R8",
+  },
+  {
+    description: "The sound of windmills causes cancer",
+    videoId: "WV66BlSoiLQ",
+  },
 ];

@@ -18,7 +18,7 @@ export const trumpVideos: Video[] = [
     videoId: "-Isn2i8vm9Y",
   },
   {
-    description: "I said 'no way' to Vladimir Putin'",
+    description: "I said 'no way' to Vladimir Putin",
     videoId: "b4b9Ong-URI",
     startSeconds: 28,
     endSeconds: 43,

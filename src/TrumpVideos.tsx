@@ -84,4 +84,12 @@ export const trumpVideos: Video[] = [
     startSeconds: 1,
     endSeconds: 83,
   },
+  {
+    description: "Calls Tim Cook, CEO of Apple, 'Tim Apple'",
+    videoId: "XHVxm12NbrY",
+  },
+  {
+    description: "Covid will miraculously disappear",
+    videoId: "r8yOv4PwttM",
+  },
 ];

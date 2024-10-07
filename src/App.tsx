@@ -46,6 +46,7 @@ function App() {
             // https://developers.google.com/youtube/player_parameters
             start: selectedVideo.startSeconds,
             end: selectedVideo.endSeconds,
+            autoplay: 1,
           },
         }}
       />

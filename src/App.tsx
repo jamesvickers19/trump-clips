@@ -24,7 +24,7 @@ function App() {
   );
   useEffect(() => {
     setSeenVideos(seenVideos.add(selectedVideo.videoId));
-  }, [selectedVideo]);
+  }, [seenVideos, selectedVideo]);
 
   return (
     <div style={styles.container}>
@@ -33,7 +33,7 @@ function App() {
         style={styles.newVideoButton}
         onClick={() => setRandomTrumpVideo()}
       >
-        Click here or refresh the page to get a new video
+        Play a new video
       </button>
       <YouTube
         videoId={selectedVideo.videoId}

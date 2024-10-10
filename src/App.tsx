@@ -103,14 +103,12 @@ const styles = {
     border: "none",
     padding: 0,
     cursor: "pointer",
+    whiteSpace: "nowrap",
   },
   newVideoButton: {
     fontSize: 24,
     marginTop: 30,
     marginBottom: 30,
-  },
-  sourceLink: {
-    fontSize: 24,
   },
   videoListContainer: {
     display: "flex",

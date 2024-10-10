@@ -63,6 +63,11 @@ function App() {
           );
         })}
       </div>
+      <div style={styles.contactUsContainer}>
+        <a href="mailto:trumpbeinginsane@gmail.com" style={styles.emailLink}>
+          Contact us
+        </a>
+      </div>
     </div>
   );
 }
@@ -74,8 +79,21 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
   },
+  contactUsContainer: {
+    borderTop: "2px solid #ccc",
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 10,
+  },
   description: {
     textAlign: "center" as const,
+  },
+  emailLink: {
+    color: "#007BFF",
+    textDecoration: "none",
+    fontSize: "18px",
   },
   linkButton: {
     background: "none",

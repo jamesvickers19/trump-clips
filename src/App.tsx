@@ -116,6 +116,7 @@ const styles = {
     alignItems: "flex-start",
     gap: "20px",
     paddingBottom: 50,
+    width: "100%",
   },
 };
 

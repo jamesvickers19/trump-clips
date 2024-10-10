@@ -50,6 +50,19 @@ function App() {
           },
         }}
       />
+      <h1>Pick a video:</h1>
+      <div style={styles.videoListContainer}>
+        {trumpVideos.map((v) => {
+          return (
+            <button
+              onClick={() => setSelectedVideo(v)}
+              style={styles.linkButton}
+            >
+              {v.description}
+            </button>
+          );
+        })}
+      </div>
     </div>
   );
 }
@@ -60,10 +73,18 @@ const styles = {
     flexDirection: "column" as const,
     justifyContent: "center",
     alignItems: "center",
-    height: "100vh",
   },
   description: {
     textAlign: "center" as const,
+  },
+  linkButton: {
+    background: "none",
+    color: "blue",
+    fontSize: 24,
+    textDecoration: "underline",
+    border: "none",
+    padding: 0,
+    cursor: "pointer",
   },
   newVideoButton: {
     fontSize: 24,
@@ -72,6 +93,13 @@ const styles = {
   },
   sourceLink: {
     fontSize: 24,
+  },
+  videoListContainer: {
+    display: "flex",
+    flexDirection: "column" as const,
+    alignItems: "flex-start",
+    gap: "20px",
+    paddingBottom: 50,
   },
 };
 

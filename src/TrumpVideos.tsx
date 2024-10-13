@@ -8,6 +8,13 @@ export interface Video {
 export const trumpVideos: Video[] = [
   {
     description:
+      "Showing classified military plans to attack Iran to a reporter",
+    videoId: "inVJF0Dr8mo",
+    startSeconds: 48,
+    endSeconds: 169,
+  },
+  {
+    description:
       "If an electric boat is sinking, do you choose to get electrocuted or eaten by a shark?",
     startSeconds: 64,
     endSeconds: 119,

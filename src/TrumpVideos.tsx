@@ -15,6 +15,13 @@ export const trumpVideos: Video[] = [
   },
   {
     description:
+      "I'm the father of IVF, but didn't know what it was until 8 months ago when a 'fantastically attracive' senator explained it to me",
+    videoId: "aF23yXq_bc4",
+    startSeconds: 106,
+    endSeconds: 205,
+  },
+  {
+    description:
       "If an electric boat is sinking, do you choose to get electrocuted or eaten by a shark?",
     startSeconds: 64,
     endSeconds: 119,

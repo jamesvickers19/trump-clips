@@ -7,6 +7,11 @@ export interface Video {
 
 export const trumpVideos: Video[] = [
   {
+    description: "I love women, but Arnold Palmer had a big thingy",
+    videoId: "diw3aKjDJKg",
+    startSeconds: 675,
+  },
+  {
     description:
       "Showing classified military plans to attack Iran to a reporter",
     videoId: "inVJF0Dr8mo",
